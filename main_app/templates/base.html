@@ -27,8 +27,10 @@
             </li>
           </ul>
           <ul class="right">
-            <li><a href="/about">About</a></li>
-            <li><a href="/games">View All My Games</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <!-- new link below -->
+            <li><a href="{% url 'games_create' %}">Add a Game</a></li>
+            <li><a href="{% url 'index' %}">View All My Games</a></li>
           </ul>
         </div>
       </nav>
