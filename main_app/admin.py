@@ -1,10 +1,11 @@
 from django.contrib import admin
-
-# Register your models here.
-from .models import Game, Review
+# import your models here
+from .models import Finch, Feeding, Toy
 
 # Register your models here
-admin.site.register(Game)
+admin.site.register(Finch)
 
-# register the new Review Model
-admin.site.register(Review)
+admin.site.register(Feeding)
+
+admin.site.register(Toy)
+
